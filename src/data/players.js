@@ -1,12 +1,12 @@
-const players =[
-
+// Array of player objects, each containing key details
+const players = [
   {
-    name: "Lionel Messi",
-    team: "Inter Miami",
-    nationality: "Argentina",
-    jerseyNumber: 10,
-    age: 37,
-    imageUrl: "https://img.a.transfermarkt.technology/portrait/big/28003-1740766555.jpg?lm=1"
+    name: "Lionel Messi",          // Player's full name
+    team: "Inter Miami",           // Current team
+    nationality: "Argentina",      // Nationality
+    jerseyNumber: 10,              // Jersey number
+    age: 37,                       // Age
+    imageUrl: "https://img.a.transfermarkt.technology/portrait/big/28003-1740766555.jpg?lm=1" // Player's image
   },
   {
     name: "Cristiano Ronaldo",
@@ -32,7 +32,7 @@ const players =[
     age: 29,
     imageUrl: "https://img.uefa.com/imgml/TP/players/2014/2025/cutoff/250076574.webp"
   }
-]
+];
 
-
+// Export the array so it can be imported in other components
 export default players;
